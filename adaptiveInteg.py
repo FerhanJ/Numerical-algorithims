@@ -6,7 +6,7 @@ import math
 
 N = 1 # initial number of slices
 a = 0 # define interval [a,b] for our integral
-b = 100
+b = 10
 error = 10**-5
 limit = 100 # number of loops to run before stopping the programme
 # define function to integrate
