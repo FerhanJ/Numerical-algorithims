@@ -1,2 +1,2 @@
 # Numerical-algorithims
-Library of numerical algorithims written in python described by http://lgbouma.com/2015/compPhysPython.pdf
+Collection of numerical algorithims written in python described by http://lgbouma.com/2015/compPhysPython.pdf and some excercises too
