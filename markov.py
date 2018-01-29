@@ -1,4 +1,9 @@
 import random 
+#takes a text file and uses it to create a sentence using markov analysis.
+#Essentially this code creates a dictionary with each word being a seperate key, and 
+#suffixes to those words being values. The markov function then takes a starting key
+#and prints a random suffix(s) from the list of values. It then uses the very last suffix
+#as the new key and repeats until a sentence is created
 
 #takes a text file and converts it into a list of words
 def file2list(filename):
