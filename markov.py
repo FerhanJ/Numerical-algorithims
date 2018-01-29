@@ -29,7 +29,7 @@ def return_suffix(all_words, n):
             d.setdefault(word, []).append(getWords(all_words, i, n)) #append a string of n words to our list of suffix values for d[word]
     return d
 
-#takes the dictionary d from previous function, a starting prefix called word and creates a sentence of length n
+#takes the dictionary d from previous function, a string as our first prefix, and an integer n as our sentence length
 def markov(d, prefix, n=10):
     print(prefix, end=' ') #print our prefix to start the sentence
     for i in range(n):
